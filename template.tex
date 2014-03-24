@@ -1,0 +1,38 @@
+\documentclass[12pt,letterpaper]{report}
+
+\usepackage[spanish]{babel}
+\usepackage[ansinew]{inputenc}
+\usepackage[right=2cm,left=3cm,top=2cm,bottom=2cm,headsep=0cm,footskip=0.5cm]{geometry}
+\usepackage{graphicx}
+\usepackage{wrapfig} %Inclusión de gráficos al lado de texto
+
+\title{\Huge Título \\ Bajada \\ Informe}
+\author{Nicolás Salas V.}
+\def\thesection       {\arabic{section}}
+\sloppy
+
+\begin{document}
+
+\pagestyle{empty}
+\begin{figure}[t]
+\includegraphics[scale=0.83]{logo.png}
+%\hspace{3.5cm}
+\begin{tabular}{l}
+\small Universidad de Chile\\
+\small Facultad de Ciencias Físicas y Matemáticas\\
+\small Departamento de Ciencias de la Computación\\
+\small CC3102 Teoría de la Computación\\
+\small Prof: Gonzalo Navarro.
+\vspace{2.3cm}
+\end{tabular}
+\end{figure}
+
+\maketitle
+
+\tableofcontents
+
+\section{Título 1}
+
+Texto 1....
+
+\end{document} 
